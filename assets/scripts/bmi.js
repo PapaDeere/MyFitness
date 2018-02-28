@@ -55,7 +55,7 @@ calcButton.addEventListener("click", function() {
     if (isValid === true) {
         calcBMI();
         let bmiCategory;
-        let bkgColor = "w3-blue";
+        let bkgColor = "w3-black";
 
         if (bmi < 18.5) {
             bmiCategory = "UNDERWEIGHT";
