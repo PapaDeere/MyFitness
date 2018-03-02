@@ -1,0 +1,19 @@
+{
+  "name": "myfitness",
+  "version": "1.0.0",
+  "description": "fitness app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PapaDeere/MyFitness.git"
+  },
+  "author": "srdjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PapaDeere/MyFitness/issues"
+  },
+  "homepage": "https://github.com/PapaDeere/MyFitness#readme"
+}
