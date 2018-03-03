@@ -1,4 +1,4 @@
-create database myFitness_db;
+CREATE DATABASE myFitness_db;
 use myFitness_db;
 
 
