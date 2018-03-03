@@ -14,7 +14,10 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING,
       allowNull: false,
     }
-
+    zipCode: {
+      type: DataTypes.integer,
+      allowNull: false,
+    }
 
   });
   return Post;
