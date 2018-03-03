@@ -1,19 +1,20 @@
 {
-  "name": "myfitness",
+  "name": "project2",
   "version": "1.0.0",
-  "description": "fitness app",
+  "description": "",
   "main": "index.js",
-  "scripts": {
+  "directories": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PapaDeere/MyFitness.git"
+  "scripts": {
+    "test": "mocha"
   },
-  "author": "srdjan",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PapaDeere/MyFitness/issues"
-  },
-  "homepage": "https://github.com/PapaDeere/MyFitness#readme"
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.35.1"
+  }
 }
