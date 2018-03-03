@@ -1,3 +1,3 @@
-insert into contactUs (contacter_first_name, contacter_last_name, contacter_email, contacter_phone, contacter_message)
-	values ("Will", "Crocker", "Williamcrocker1992@gmail.com", 3294565, "help");
+insert into userinfo (first_name, last_name, email, zipcode)
+	values ("Will", "Crocker", "Williamcrocker1992@gmail.com", 85259);
 

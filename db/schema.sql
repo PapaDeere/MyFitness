@@ -5,13 +5,12 @@ use myFitness_db;
 
 
 
-create table contactUs(
-id integer not null auto_increment primary key,
-contacter_first_name varchar(30) not null,
-contacter_last_name varchar(30) not null,
-contacter_email varchar (30) not null,
-contacter_phone integer(25),
-contacter_message varchar(100)
+CREATE TABLE userinfo (
+	id INTEGER NOT NULL auto_increment PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL,
+	last_name varchar (50) not null,
+    email varchar(50) not null,
+    zipcode integer(11) not null
 );
 
 

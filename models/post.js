@@ -13,9 +13,9 @@ module.exports = function(sequelize, DataTypes) {
     email: {
       type: DataTypes.STRING,
       allowNull: false,
-    }
+    },
     zipCode: {
-      type: DataTypes.integer,
+      type: DataTypes.INTEGER,
       allowNull: false,
     }
 
